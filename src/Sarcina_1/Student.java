@@ -1,31 +1,31 @@
 package Sarcina_1;
 
 public class Student extends Person{
-    private String program;
-    private int year;
-    private double fee;
-   public  Student( String name, String Address, String program, int year, double fee){
-       this.program = program;
-    this.year = year;
-    this.fee = fee;
+    private String Program;
+    private int Year;
+    private double Fee;
+   public  Student( String name, String address, String program, int year, double fee){
+       super(name, address);
+       this.Program = program;
+    this.Year = year;
+    this.Fee = fee;
    }
     public String getProgram(){
-        return null;
+        return Program;
     }
 
-    public String setProgram(){
+    public void setProgram(){
     }
     public int getYear(){
+       return Year;
     }
-    public int setYear(){
+    public void setYear(){
     }
     public double getFee(){
+       return Fee;
     }
-    public double setFee(double fee){
-       this.fee = fee;
-       return fee;
+    public void setFee(double fee){
+       this.Fee = fee;
     }
-    public String toString(){
-       return Person() + " " + program + " " + year + "  " + fee;
-    }
+
 }

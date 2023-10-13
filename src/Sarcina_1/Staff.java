@@ -1,25 +1,25 @@
 package Sarcina_1;
 
 public class Staff extends Person {
-    private String school;
-    private double pay;
- public Staff ( String name, String Address, String school, double pay){
-     this.school = school;
-     this.pay = pay;
+    private String School;
+    private double Pay;
+ public Staff ( String name, String address, String school, double pay){
+     super(name, address);
+     this.School = school;
+     this.Pay = pay;
  }
 
 public String getSchool(){
+    return School;
 }
- public String  setSchool(String school){
+ public void  setSchool(String school){
     }
     public double getPay(){
+     return Pay;
     }
-public double setPay(double pay2){
-     pay = pay2;
-     return pay2;
+public void setPay(double pay){
+     this.Pay = pay;
     }
-    public String toString(){
-     return Person() + " " + school + " " + pay;
-    }
+
 }
 

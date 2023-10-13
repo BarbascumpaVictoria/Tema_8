@@ -5,9 +5,9 @@ public class Main {
         Person person = new Person("Ana", "Codru");
         Staff staff = new Staff( "Ana", "Codru", "Nr.56", 2350);
        Student student = new Student("Ana", "Codru", "Cibernetica",2006, 5500 );
-        System.out.println(person);
-        System.out.println(staff);
-        System.out.println(student);
+        System.out.println(person.getAddress() +"  "+ person.getName());
+        System.out.println(person.getAddress() +"  "+ person.getName() + " "+ staff.getPay()+ "  "+staff.getSchool());
+        System.out.println(person.getAddress() +"  "+ person.getName() + " "+ student.getFee()+"  "+student.getYear() +"  " +student.getFee());
     }
     }
 
