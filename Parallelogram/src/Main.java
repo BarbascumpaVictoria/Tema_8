@@ -8,6 +8,7 @@ public class Main {
         }
     }
 
+
 //    2.	Creați o clasă cu denumirea Parallelogram. Definiți următoarele 4 metode și
 //            logica corespunzătoare pentru calculul arie și al perimetrului:
 //            int calculatePerimeter(int length, int width) { }
